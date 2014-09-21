@@ -1,0 +1,24 @@
+Survival of passengers on the Titanic
+=====================================
+
+
+About the data
+==============
+
+This application is about the data set Titanic which is available from R datasets which describes the fate of passengers on the fatal maiden voyage of the ocean liner ‘Titanic’, summarized according to economic status (class), sex, age and survival. 
+
+A 4-dimensional array resulting from cross-tabulating 2201 observations on 4 variables. The variables and their levels are as follows:
+No   Name 	Levels
+1 	Class 	1st, 2nd, 3rd, Crew
+2 	Sex 	Male, Female
+3 	Age 	Child, Adult
+4 	Survived 	No, Yes 
+
+
+Application Documentation
+=========================
+
+Application was created using Age as the outcome variable and Survived and Sex as the predictor variables. Upon choosing the predictor variable one can view the mosaic plot for the linear model Age vs predictor variable. Age with levels 1 for adults and 2 for child, Survived with levels yes for survived and no for not survived, Sex with levels female and male. Some transformation was done to the data in order to perform the linear regression such as data table was converted to dataframe first then, variable Age was converted to type numeric and predictor variables Survived and Sex kept as factor variables.
+
+Looking at the plot it is hard to decide whether any relationship exists between two variables (age ~ survival, age ~ sex). Considering two predictor variables together on age or trying different combination of variables from the dataset might yield the clear results.
+
